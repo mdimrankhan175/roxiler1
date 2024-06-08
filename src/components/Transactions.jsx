@@ -64,7 +64,7 @@ function Transactions({ month, monthText }) {
     const getData = async () => {
         try {
             setLoading(true);
-            const { data } = await axios.get(`https://rb-qv4xpn9xg-imran-khans-projects-e9b60205.vercel.app/transactions`, {
+            const { data } = await axios.get(`https://rb-qv4xpn9xg-imran-khans-projects-e9b60205.vercel.app/transactions123`, {
                 params: {
                     month,
                     page: tableParams.pagination.current,
